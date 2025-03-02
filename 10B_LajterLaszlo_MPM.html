@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hálótervezés - MPM</title>
+
+    <style>
+        .a{
+            width: 560px;
+            height: 793px;
+            border: 1px solid #000;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .header{
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .unselectable{
+            user-select: none;
+        }
+        footer{
+            
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="a unselectable">
+        <div class="header">
+            <p><b>Készítette:</b>Lajter László</p>
+            <p><b>Iskola:</b> Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</p>
+            <p><b>Erre az órára:</b> IKT projektmunka</p>
+        </div>
+        <h1>Hálótervezés - CPM</h1>
+        <p><b>TLM</b>
+        <br> Azt az időpontot jelenti, amikor egy tevékenység legkorábban megkezdhető, figyelembe véve az előző tevékenységek befejezési idejét és a kapcsolódó korlátozásokat. A TLM kiszámítása alapvető fontosságú a hálótervezésben, mivel segít optimalizálni a projektek időzítését és erőforrás-allokációját. </p>
+        <p><b>MPM (Módszeres Projekt Menedzsment):</b>  A projektmenedzsment olyan módszere, amely a projektek tervezését, szervezését, irányítását és ellenőrzését segíti. Az MPM célja, hogy a projekteket hatékonyan és időben lehessen lezárni, a meghatározott erőforrások és korlátozások figyelembevételével.</p>
+        <p><b>VK (Vége-Kezdet Kapcsolat):</b> Egy tevékenység csak akkor kezdődhet, ha egy másik tevékenység befejeződött. Ez a leggyakoribb kapcsolat a hálótervezésben.</p>
+        <p><b>KK (Kezdet-Kezdet Kapcsolat):</b> Egy tevékenység csak akkor kezdődhet, ha egy másik tevékenység elkezdődött. Például, ha egy tevékenységnek csak az elejére van szükség egy másik tevékenység elindításához.
+        </p>
+        <p><b>VV (Vége-Vége Kapcsolat):</b> Egy tevékenység csak akkor fejeződhet be, ha egy másik tevékenység is befejeződött. Ez akkor használatos, ha két tevékenységnek egyidejűleg kell befejeződnie.
+        </p>
+    
+        <footer>
+
+            <span><b>2025.03.02, Balmazújváros</b></span>
+            <span><b>Lajter László</b></span>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
